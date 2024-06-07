@@ -10,5 +10,4 @@ This repository contains the exercises and projects from the books [Learn Enough
 
 | Project | Description |
 | --- | --- |
-| [sample-website](learn_enough_html_css_layout/sample_website) | create with HTML and CSS |
-
+| [sample-website](Learn-Enough-HTMl-CSS-and-Layout/sample-website) | create with HTML and CSS |
