@@ -11,3 +11,4 @@ This repository contains the exercises and projects from the books [Learn Enough
 | Project | Description |
 | --- | --- |
 | [sample-website](Learn-Enough-HTMl-CSS-and-Layout/sample-website) | create with HTML and CSS |
+| [listings](Learn-Enough-HTMl-CSS-and-Layout/listings) | create with [jekyll]([http://](https://jekyllrb.com/)) |
