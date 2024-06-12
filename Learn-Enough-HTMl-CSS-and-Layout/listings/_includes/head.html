@@ -1,6 +1,31 @@
 <head>
+  {% if page.title %}
+  <title>{{ page.title }} | Test Page</title>
+  {% else %}
   <title>Test Page: Don't Panic</title>
+  {% endif %}
+  <!--  -->
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  {% else %}
+  <meta name="description" content="This is a dangerous site." />
+  {% endif %}
+  <!--  -->
+  <link href="/favicon.png" rel="icon" />
   <meta charset="utf-8" />
-  <link rel="stylesheet" href="/css/main.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script
+    src="https://kit.fontawesome.com/5b6f7b9986.js"
+    crossorigin="anonymous"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&
+family=Raleway:wght@100&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/css/main.css" />
 </head>
