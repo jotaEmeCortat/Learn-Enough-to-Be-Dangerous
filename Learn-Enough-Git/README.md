@@ -54,7 +54,7 @@ git commit -am "Commit message"
 git diff
 ```
 
-### First push to GitHub
+### Add remote repo
 
 ```bash
 git remote add origin <repository-url>
@@ -62,3 +62,41 @@ git push -u origin master
 ```
 
 The `-u` option to git push sets GitHub as the upstream repository, which means we’ll be able to download any changes automatically when we run `git pull`.
+
+### Push changes to GitHub
+
+```bash
+git push
+```
+
+## .gitignore
+
+The `.gitignore` file is used to specify files that should be ignored by Git.
+
+```shell
+#project/.gitignore
+# Ignore .DS_Store files
+.DS_Store
+```
+
+### wildcards
+
+```shell
+# Ignore all .a files
+*.a
+
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+
+# Ignore all files in the build/ directory
+build/
+
+# Ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+
+# Ignore all .pdf files in the doc/ directory
+doc/**/*.pdf
+
+# Ignore all files in any directory named temp
+**/temp/
+```
