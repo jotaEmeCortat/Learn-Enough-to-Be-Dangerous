@@ -2,7 +2,6 @@
 
 This is a sample repository for the [_Learn Enough Git to Be Dangerous_](https://www.learnenough.com/git-tutorial) tutorial.
 
-## Commands
 
 ### Initialize a new Git repository
 
@@ -99,4 +98,18 @@ doc/**/*.pdf
 
 # Ignore all files in any directory named temp
 **/temp/
+```
+
+## Git Branches
+
+### Create a new branch
+
+```bash
+git checkout -b <branch-name>
+```
+
+### List all branches
+
+```bash
+git branch
 ```
