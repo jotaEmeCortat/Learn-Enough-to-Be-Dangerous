@@ -54,7 +54,7 @@ git commit -am "Commit message"
 git diff
 ```
 
-### First push to GitHub
+### Add remote repo
 
 ```bash
 git remote add origin <repository-url>
@@ -62,3 +62,9 @@ git push -u origin master
 ```
 
 The `-u` option to git push sets GitHub as the upstream repository, which means we’ll be able to download any changes automatically when we run `git pull`.
+
+### Push changes to GitHub
+
+```bash
+git push
+```
