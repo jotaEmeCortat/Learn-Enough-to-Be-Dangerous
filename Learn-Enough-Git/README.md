@@ -2,7 +2,6 @@
 
 This is a sample repository for the [_Learn Enough Git to Be Dangerous_](https://www.learnenough.com/git-tutorial) tutorial.
 
-
 ### Initialize a new Git repository
 
 ```bash
@@ -113,3 +112,37 @@ git checkout -b <branch-name>
 ```bash
 git branch
 ```
+
+### Switch to a branch
+
+```bash
+git checkout <branch-name>
+```
+
+### Delete a branch
+
+```bash
+git branch -d <branch-name>
+
+# delete branch even if its changes are unmerged
+git branch -D <branch-name>
+```
+
+### Merge a branch
+
+```bash
+git checkout main
+git merge <branch-name>
+```
+
+## Recovering from errors
+
+### Undo changes
+
+we can undo these changes by passing the `-f` (force) option to checkout, which forces Git to check out `HEAD`:
+
+```bash
+git checkout -f
+```
+
+use this trick only when you’re 100% sure you want to revert to `HEAD`.
